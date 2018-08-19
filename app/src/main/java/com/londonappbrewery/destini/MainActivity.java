@@ -38,12 +38,13 @@ public class MainActivity extends AppCompatActivity {
                     firstStory.setText(R.string.T3_Story);
                     path1.setText(R.string.T3_Ans1);
                     path2.setText(R.string.T3_Ans2);
-                    mStoryindex = 4;
-                } else if (mStoryindex == 4) {
+                    mStoryindex = 3;
+                }  else if (mStoryindex == 3) {
                     firstStory.setText(R.string.T6_End);
                     path1.setVisibility(View.GONE);
                     path2.setVisibility(View.GONE);
-                }  else if (mStoryindex == 3) {
+
+                } else if (mStoryindex == 4) {
                     firstStory.setText(R.string.T6_End);
                     path1.setVisibility(View.GONE);
                     path2.setVisibility(View.GONE);
